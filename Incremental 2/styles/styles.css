@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    max-height: 50px;
+}
+
+.entradas {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+
+h3 {
+    margin: auto;
+}
+
+.justificar {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.iconos {
+    margin-left: 15px;
+}
+
+.unirseAhora {
+    text-decoration: none;
+    color: rgb(49, 101, 244);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 15px
+}
+
+.inicioSesion {
+    box-shadow: 0 0 0 1px;
+    border-radius: 25px;
+    padding: 15px 15px;
+    color: rgb(11, 101, 194);
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(210, 114, 45, 0.917);
+}
+
+.main {
+    display: flex;
+}
+
+.izquierda {
+    flex: 50%;
+}
+
+.derecha {
+    flex: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-top: 8px;
+    width: 250px;
+    height: 40px;
+}
+
+#password {
+    margin-top: 8px;
+    width: 250px;
+    height: 40px;
+}
+
+.nombreForm {
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+.resetPassword {
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color:rgb(121, 154, 245);
+}
+
+.inicioSesionAzul {
+    box-shadow: 0 0 0 1px;
+    border-radius: 25px;
+    padding: 15px 80px;
+    color: white;
+    background-color: rgb(11, 101, 194);
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.inicioSesionAzul:hover {
+    background-color: bisque;
+}
+
+.inicioSesion:hover {
+    color: white;
+    background-color: bisque;
+}
+
+.marginTop {
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    color: rgb(11, 101, 194);
+    text-decoration: none;
+    font-weight: bold;
+}

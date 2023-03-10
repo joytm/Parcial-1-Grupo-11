@@ -1,0 +1,53 @@
+<!-- Misma estructura que index pero para rellenar formulario -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeclersIn</title>
+    <link rel="stylesheet" href="styles/stylesUnete.css">
+</head>
+<body>
+    <!-- Cabecera de la página Logo -->
+    <header class="header">
+        <a href="index.html"> 
+            <img src="styles/resources/Logo-teclers.svg" alt="Página inicio" width="150px" height="80px">
+        </a>
+    </header>
+
+    <!-- Contenido principal: Saludo + Formulario -->
+    <main class="main">
+        <div class="izquierda">
+            <h2>¡Esto se está poniendo...<br>
+            MUY SERIO!</h2>
+            <p>¡Aquí empieza tu aventura!</p>
+            <form class="form">
+                <label class="nombreForm2">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre épico">
+                <label class="nombreForm2">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellido con renombre">
+                <label class="nombreForm2">Email</label>
+                <input type="email" id="emailform" name="email" placeholder="Email del que te averguences">
+                <label class="nombreForm2">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="No vale mirarlo en la agenda">
+                <label class="nombreForm2">Elige tu horario:</label>
+                    <select class="rango" id="horario" name="horario">
+                        <option value="mañana">10:00 a 12:00</option>
+                        <option value="tarde" selected>17:00 a 19:00</option>
+                        <option value="noche">22:00 a 00:00</option>
+                    </select>
+                <label class="nombreForm2">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="No pongas la de siempre">
+                <label class="nombreForm2">Repite contraseña</label>
+                <input type="password" id="password2" name="password2" placeholder="La que no era como la de siempre">
+                
+            </form>
+            <a class="inicioSesionAzul2" href="#">Únete</a><br>
+        </div>
+        <div class="derecha">
+            <img src="styles/resources/destacado-6.png" alt="Imagen lateral" width="500px">
+        </div>
+</body>
+</html>

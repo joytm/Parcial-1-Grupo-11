@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    max-height: 50px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(210, 114, 45, 0.917);
+}
+
+.main {
+    display: flex;
+}
+
+.nombreForm2 {
+    font-size: smaller;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.izquierda {
+    flex: 50%;
+    margin-left: 30px;
+}
+
+.izquierda2 {
+    flex: 50%;
+    text-align: center;
+    /* background: rgb(28,160,195);
+    background: linear-gradient(0deg, rgba(11,128,194,0.3) 0%, rgba(11,128,194,0.2) 100%); */
+
+    /* background: rgb(231,231,231);
+    background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 47%, rgba(232,232,232,1) 100%); */
+    border-radius: 2%;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.inicioSesionAzul2 {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(11, 101, 194);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.datos {
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rango {
+    width: 300px;
+    height: 30px;
+}
+
+.inicioSesionAzul2:hover {
+    background-color: bisque;
+}
+
+.derecha img{
+    margin-top: 80px;
+}
+
+.derecha2 img {
+    margin-top: 50px;
+}
+
+/* ESTILO DEL DIV QUE CONTENTRÁ EL INPUT */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    }
+
+/* ESTILO DEL INPUT*/
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* ESTILO DEL BOTÓN */
+.boton-standar-rw{
+    margin: 5px 50%;
+    background-color: white;
+    color: rgb(11, 101, 194);
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgb(11, 101, 194);
+    transition: all 0.3s ease 0s; /* Transición para el cambio de aspecto Hove */
+    width: 12em;
+    padding: 10px;
+}
+
+/* ESTILO DEL BOTÓN CON HOVER DE MOUSE */
+.boton-standar-rw:hover{
+    color: white;
+    background-color: rgb(11, 101, 194);
+}
