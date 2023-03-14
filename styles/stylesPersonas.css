@@ -18,14 +18,22 @@
   border-radius: 50%;
 }
 
+.persona-name-username {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .persona-name {
   font-weight: bold;
   text-align: center;
+  margin: 10px;
 }
 
 .persona-username {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-align: center;
+  color: #555;
 }
 
 .persona-name-username p {
