@@ -1,3 +1,8 @@
+:root{
+    --rosa: #F59FC6;
+    
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,9 +16,85 @@ html{
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    align-items: center;
+    background-color: #79C7C7;
+    margin-bottom: 5px;
     margin-top: 30px;
     max-height: 50px;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.buscador {
+    display: flex;
+    background-color: #efefef;
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+}
+
+.cotilleo {
+    border: none;
+    background-color: rgb(239, 239, 239);
+}
+
+input::placeholder {
+    color: black;
+}
+
+.button {
+    border: none;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+
+.nombre-menu {
+    font-size: small;
+    margin: 5px 0;
+    color: white;
+}
+
+.justificar {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.iconos {
+    margin-left: 15px;
+}
+ 
+.unirseAhora {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.inicioSesionHeader {
+    box-shadow: 0 0 0 1px;
+    font-size: 10px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.inicioSesionHeader:hover {
+    color: black;
+    background-color: #efefef;
 }
 
 .entradas {
@@ -43,13 +124,13 @@ h3 {
     margin-left: 15px;
 }
 
-.unirseAhora {
+/* .unirseAhora {
     text-decoration: none;
     color: rgb(49, 101, 244);
     font-size: 15px;
     font-weight: bold;
     margin: 0 15px
-}
+} */
 
 .inicioSesion {
     box-shadow: 0 0 0 1px;
@@ -70,6 +151,7 @@ h2 {
 
 .main {
     display: flex;
+    margin: 100px 0px;
 }
 
 .izquierda {
@@ -137,4 +219,13 @@ h2 {
     color: rgb(11, 101, 194);
     text-decoration: none;
     font-weight: bold;
+}
+
+.footer {
+    bottom: 0px;
+    align-items: center;
+    color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    
 }
