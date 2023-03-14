@@ -1,3 +1,7 @@
+.contenido-2 {
+  flex: 75%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -51,4 +55,27 @@
 
 .persona button:hover {
   opacity: 0.75;
+}
+
+.footer {
+  margin-top: 300px;
+  align-items: center;
+  color: rgb(222, 222, 222);
+  display: flex;
+  justify-content: center;
+  
+}
+
+.academia {
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  z-index: 0;
+  transition: 0.2s;
+}
+
+.academia:hover {
+  background-color: #79C7C7;
+  width: 200px;
+  border-radius: 10px;
 }
