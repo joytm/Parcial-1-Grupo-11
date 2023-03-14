@@ -142,13 +142,15 @@ main {
 
 .contenido-2 {
     flex: 50%;
-    margin-right: 5px;
+    
 }
 
 .contenido-2-1 {
     display: flex;
     align-items: center;
 }
+
+.contenido-1-1
 
 .introduce-texto {
     border: 1px solid rgb(172, 172, 172);
@@ -204,6 +206,7 @@ main {
 
 .contenido-3 {
     flex: 25%;
+    margin-left: 5px;
 }
 
 

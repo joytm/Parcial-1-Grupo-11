@@ -189,12 +189,12 @@ input {
 .boton-standar-rw{
     margin: 5px 50%;
     background-color: white;
-    color: rgb(11, 101, 194);
+    color: #79C7C7;
     border-radius: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 15px;
-    border: 2px solid rgb(11, 101, 194);
+    border: 2px solid #79C7C7;
     transition: all 0.3s ease 0s; /* Transición para el cambio de aspecto Hove */
     width: 12em;
     padding: 10px;
@@ -203,5 +203,6 @@ input {
 /* ESTILO DEL BOTÓN CON HOVER DE MOUSE */
 .boton-standar-rw:hover{
     color: white;
-    background-color: rgb(11, 101, 194);
+    background-color: #F59FC6;
+    border: none;
 }
