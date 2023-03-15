@@ -5,7 +5,8 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 2rem;
+  height: 467px;
+  gap: 1rem;
 }
 
 .persona {
@@ -13,7 +14,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .persona img {
@@ -22,14 +25,21 @@
   border-radius: 50%;
 }
 
+.persona-name-username {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .persona-name {
   font-weight: bold;
   text-align: center;
 }
 
 .persona-username {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-align: center;
+  color: #555;
 }
 
 .persona-name-username p {
@@ -37,7 +47,7 @@
 }
 
 .persona button {
-  background-color: #0dbf37;
+  background-color: #79c7c7;
   border: none;
   padding: 5px 10px;
   color: #f5f5f5;
@@ -55,7 +65,6 @@
   color: rgb(222, 222, 222);
   display: flex;
   justify-content: center;
-  
 }
 
 .academia {
@@ -67,7 +76,7 @@
 }
 
 .academia:hover {
-  background-color: #79C7C7;
+  background-color: #79c7c7;
   width: 200px;
   border-radius: 10px;
 }
