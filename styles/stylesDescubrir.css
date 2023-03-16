@@ -6,7 +6,7 @@ html{
     font-family: Helvetica, sans-serif;
     max-width: 1000px;
     margin: auto;
-    background-color: #efefef;
+    background-color: #ffffff;
 }
 
 /* Estilos Header + Buscador + Botonera */
@@ -99,38 +99,25 @@ input::placeholder {
     color: black;
     background-color: #efefef;
 }
-/* Estilos Main */
-
-main {
-   display: flex;
-}
-
-.cuadros {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 8px;
-    margin-bottom: 5px;
-    padding: 15px 25px;
-}
 
 /* Estilos Div 1.1 */
 
-.contenido {
-    flex: 25%;
-    margin: 0 5px 5px 0;
-}
-
-.contenido-individual {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-}
-
 .titulos {
     color: rgb(172, 172, 172);
-    font-weight: lighter;
-    font-size: 12px;
+    font-size: 0.7rem;
+}
+
+.text {
+    height: 6rem;
+}
+
+.text:hover{
+    height: 12rem;
+}
+
+.text::placeholder {
+    text-align: top;
+    opacity: 0.5;
 }
 
 .nombre-categorias {
@@ -139,6 +126,29 @@ main {
 
 
 /* Estilos Div 2.1 */
+
+.btn {
+    background-color: #79c7c7;
+    border: none;
+    color: #f5f5f5;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(219, 219, 219);
+}
+
+a{
+    text-decoration: none;
+}
 
 .contenido-2 {
     flex: 50%;
@@ -177,12 +187,6 @@ main {
 .iconos-texto {
     display: flex;
    
-}
-
-.acciones-publicacion {
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
 }
 
 .more {
