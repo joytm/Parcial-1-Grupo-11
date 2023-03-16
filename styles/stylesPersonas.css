@@ -1,5 +1,5 @@
 .contenido-1 {
-  margin-right: 6px;;
+  margin-right: 6px;
 }
 .contenido-2 {
   flex: 75%;
@@ -83,4 +83,207 @@
   background-color: #79c7c7;
   width: 200px;
   border-radius: 10px;
+}
+
+/* Media Queries */
+
+/* De momento está bien hasta 480px */
+
+@media (max-width: 480px) {
+  .menu-log-in {
+    display: none;
+  }
+
+  .contenido-1 {
+    display: none;
+  }
+
+  .menu {
+    border-right: none;
+    gap: 1rem;
+    width: 100%;
+    margin: unset;
+  }
+
+  .cuadros {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .academia,
+  .message,
+  .contenido-1,
+  .buscador,
+  .footer {
+    display: none;
+  }
+
+  body {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+
+  .persona {
+    padding: 1rem;
+  }
+
+  .header {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    position: unset;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .persona button {
+    min-width: 50%;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .persona-name,
+  .persona-username {
+    font-size: 1.25rem;
+  }
+
+  .justificar {
+    margin: unset;
+  }
+
+  .nombre-menu {
+    display: none;
+  }
+
+  .menu {
+    height: 0%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .menu-login,
+  .academia,
+  .message,
+  .contenido-1,
+  .footer,
+  .menu-log-in {
+    display: none;
+  }
+
+  .menu {
+    border-right: none;
+    margin-right: 0;
+    gap: 1rem;
+  }
+
+  .header {
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .justificar {
+    margin: 0;
+  }
+
+  .persona button {
+    padding: 0.5rem;
+    min-width: 50%;
+    font-weight: bold;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    height: unset;
+  }
+
+  .persona {
+    padding: 1rem;
+  }
+
+  .footer,
+  .message,
+  .academia {
+    display: none;
+  }
+
+  .buscador {
+    max-width: 33%;
+  }
+
+  .buscador .button {
+    margin-bottom: 0;
+  }
+
+  .cotilleo {
+    display: none;
+  }
+
+  .cotilleo::placeholder {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    margin: 0 auto;
+  }
+
+  .message,
+  .academia {
+    display: none;
+  }
+
+  .buscador {
+    width: 25%;
+  }
+
+  .cotilleo {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .persona-7,
+  .persona-8 {
+    display: none;
+  }
+
+  .justificar {
+    margin: 0;
+  }
+
+  .nombre-menu {
+    display: none;
+  }
+
+  .menu {
+    border-right: none;
+  }
 }
