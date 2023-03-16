@@ -1,7 +1,7 @@
 <!-- Página inicio https://www.linkedin.com/home -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,17 +12,15 @@
   <body>
     <!-- Cabecera de la página Logo + Botones principales -->
     <header class="header">
-      <a href="descrubir.html">
         <img
           src="styles/resources/Logo Teclers Final.svg"
           alt="Página inicio"
           width="150px"
           height="120px"
         />
-      </a>
       <div>
         <a class="unirseAhora" href="formulario.html">Unirse Ahora</a>
-        <a class="inicioSesionHeader" href="perfil.html">Iniciar Sesión</a>
+        <a class="inicioSesionHeader" href="descrubir.html">Iniciar Sesión</a>
       </div>
     </header>
     <!-- Contenido principal: Saludo + Formulario -->
@@ -34,7 +32,6 @@
         </h2>
         <a class="marginTop" href="formulario.html">¡Únete ahora!</a>
         <form class="form">
-          <label class="nombreForm">Email o teléfono</label>
           <input
             type="email"
             id="email"
@@ -43,22 +40,25 @@
           />
           <!-- Agrego placeholder para texto orientativo dentro de caja -->
 
-          <label class="nombreForm">Contraseña</label>
           <input
-            type="text"
+            type="password"
             id="password"
             name="password"
             placeholder="Contraseña"
           />
         </form>
-        <h3 class="resetPassword">¿Has olvidado tu contraseña?</h3>
-        <a class="inicioSesionAzul" href="#">Iniciar Sesión</a>
+        <div>
+          <a class="resetPassword" href="">¿Has olvidado tu contraseña?</a>
+        </div>
+        <div>
+          <a class="inicioSesionAzul" href="descrubir.html">Iniciar Sesión</a>
+        </div>
       </div>
       <div class="derecha">
         <img
-          src="styles/resources/dxf91zhqd2z6b0bwg85ktm5s4.svg"
+          src="styles/resources/destacado-6.png"
           alt="Imagen lateral"
-          width="600px"
+          width="500px"
         />
       </div>
     </main>
@@ -70,10 +70,8 @@
         height="35x"
       />
     </a>
-    <footer class="footer">
-      <div>
-        Grupo 11 - Información Empleo Ayuda Privacidad Condiciones © 2023 Tecla.
-      </div>
-    </footer>
   </body>
+  <footer>
+    <p>Grupo 11 - Información Empleo Ayuda Privacidad Condiciones © 2023 Tecla.</p>
+  </footer>
 </html>
