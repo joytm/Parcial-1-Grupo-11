@@ -169,6 +169,10 @@ h2 {
 .izquierda {
     flex: 50%;
     padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .derecha {
@@ -202,7 +206,6 @@ h2 {
 .resetPassword {
     font-size: small;
     color:palevioletred;
-    border: 1px solid black;
     text-decoration: none;
 }
 
@@ -219,23 +222,24 @@ h2 {
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    border: 1px solid #79C7C7;
 }
 
 .inicioSesionAzul:hover {
     background-color: #79C7C7;
-    width: 250px;
     border-radius: 25px;
 }
 
-.inicioSesion:hover {
-    /*color: white;
-    background-color: bisque;*/
+.reset-inicio {
+    display: flex;
+    flex-direction: column;
 }
 
 .marginTop {
-    display: block;
-    margin-bottom: 30px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -245,18 +249,18 @@ h2 {
     transform: scale(1.25);
 }
 
-footer {
+.footer {
     position: absolute;
-    bottom: 0px;
-    text-align: center;
+    align-items: center;
+    width: 1000px;
     color: rgb(222, 222, 222);
-    /*display: flex;
-    justify-content: space-between;*/
+    display: flex;
+    justify-content: center;
 }
 
 .academia {
     position: fixed;
-    bottom: 70px;
+    bottom: 100px;
     right: 15px;
     z-index: 0;
     transition: 0.2s;
@@ -265,5 +269,5 @@ footer {
 .academia:hover {
     background-color: #79C7C7;
     width: 200px;
-    border-radius: 25px;
+    border-radius: 10px;
 }

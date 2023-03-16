@@ -12,12 +12,15 @@ html{
 /* Estilos Header + Buscador + Botonera */
 
 .header {
-    display: flex;
+     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 2px;
+    z-index: 1;
     background-color: #79C7C7;
     margin-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
     max-height: 50px;
     padding: 35px;
     border-radius: 8px;
@@ -100,6 +103,21 @@ input::placeholder {
     background-color: #efefef;
 }
 
+.foto-header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto-header h3{
+    flex: 20%;
+}
+
+.foto-header img{
+    margin: 10px;
+}
+
 /* Estilos Div 1.1 */
 
 .titulos {
@@ -109,6 +127,7 @@ input::placeholder {
 
 .text {
     height: 6rem;
+    transition: 0.2;
 }
 
 .text:hover{
@@ -239,3 +258,26 @@ a{
     border-radius: 8px;
     background-color: rgb(225, 225, 225);
 } 
+
+.footer {
+    position: absolute;
+    align-items: center;
+    width: 1000px;
+    color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+}
+
+.academia {
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    z-index: 0;
+    transition: 0.2s;
+}
+
+.academia:hover {
+    background-color: #79C7C7;
+    width: 200px;
+    border-radius: 10px;
+}
