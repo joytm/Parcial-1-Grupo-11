@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TeclersIn</title>
+    <title>Teclers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/stylesDescubrir.css"/>
   </head>
 
@@ -34,7 +36,7 @@
           </svg>
         </button>
         <input class="cotilleo" type="text" placeholder="Busca lo que sea" />
-      </div>
+      </div> 
 
       <div class="menu">
         <div class="justificar">
@@ -103,9 +105,9 @@
           <h3 class="nombre-menu">Conecta</h3>
         </div>
       </div>
-      <div class="perfil">
+      <div class="d-flex justify-content-center align-items-center mr-2">
         <div>
-          <h3>¿Qué hay de nuevo?</h3>
+          <h3 class="nombre-menu">¿Qué hay de nuevo?</h3>
         </div>
         <div>
           <a href="perfil.html">
@@ -120,134 +122,66 @@
       </div>
     </header>
 
-    <main>
+
+    <!-- CONTENIDO -->
+    <main class="d-flex col-lg-12">
       <!-- DIV 1 - IZQUIERDA -->
-      <div class="contenido">
+      <div class="col-2 mr-2">
         <!-- DIV 1.1 -->
-        <div class="contenido-1-1, cuadros">
+        <div class="h-20 p-3 mb-2 bg-light rounded-3">
           <div class="titulos">
             <h3>Explore</h3>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-youtube"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#2c3e50"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <rect x="3" y="5" width="18" height="14" rx="4" />
               <path d="M10 9l5 3l-5 3z" />
             </svg>
             <p class="nombre-categorias">Videos</p>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-code"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#2c3e50"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <polyline points="7 8 3 12 7 16" />
               <polyline points="17 8 21 12 17 16" />
               <line x1="14" y1="4" x2="10" y2="20" />
             </svg>
             <p class="nombre-categorias">Codea</p>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-school"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#2c3e50"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-school" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
               <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
             </svg>
             <p class="nombre-categorias">Learning</p>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-steam"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#ffec00"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 2.995l-.176 .005a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z"
-              />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-steam" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#790AE6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 2.995l-.176 .005a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
               <circle fill="currentColor" cx="16.5" cy="9.5" r="1" />
             </svg>
             <p class="nombre-categorias">Colabora</p>
           </div>
         </div>
         <!-- DIV 1.2 -->
-        <div class="contenido-1-1, cuadros">
+        <div class="h-20 p-3 mb-4 bg-light rounded-3">
           <div class="titulos">
             <h3>Account</h3>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-settings"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#7bc62d"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"
-              />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
               <circle cx="12" cy="12" r="3" />
             </svg>
             <p class="nombre-categorias">Tools</p>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-chart-bar"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#7bc62d"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-bar" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <rect x="3" y="12" width="6" height="8" rx="1" />
               <rect x="9" y="8" width="6" height="12" rx="1" />
               <rect x="15" y="4" width="6" height="16" rx="1" />
@@ -255,23 +189,10 @@
             </svg>
             <p class="nombre-categorias">Data</p>
           </div>
-          <div class="contenido-individual">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-snapchat"
-              width="44"
-              height="44"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#7bc62d"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M16.882 7.842a4.882 4.882 0 0 0 -9.764 0c0 4.273 -.213 6.409 -4.118 8.118c2 .882 2 .882 3 3c3 0 4 2 6 2s3 -2 6 -2c1 -2.118 1 -2.118 3 -3c-3.906 -1.709 -4.118 -3.845 -4.118 -8.118zm-13.882 8.119c4 -2.118 4 -4.118 1 -7.118m17 7.118c-4 -2.118 -4 -4.118 -1 -7.118"
-              />
+          <div class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-snapchat" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#79C7C7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M16.882 7.842a4.882 4.882 0 0 0 -9.764 0c0 4.273 -.213 6.409 -4.118 8.118c2 .882 2 .882 3 3c3 0 4 2 6 2s3 -2 6 -2c1 -2.118 1 -2.118 3 -3c-3.906 -1.709 -4.118 -3.845 -4.118 -8.118zm-13.882 8.119c4 -2.118 4 -4.118 1 -7.118m17 7.118c-4 -2.118 -4 -4.118 -1 -7.118" />
             </svg>
             <p class="nombre-categorias">Chat</p>
           </div>
@@ -279,98 +200,40 @@
       </div>
 
       <!-- DIV 2 - MEDIO -->
-      <div class="contenido-2">
+      <div class="col-7 p-3 mb-4 mx-2 bg-light rounded-3 container-sm">
         <!-- DIV 2.1  -->
-        <div class="cuadros">
-          <div class="contenido-2-1">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-writing-sign"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#9e9e9e"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M3 19c3.333 -2 5 -4 5 -6c0 -3 -1 -3 -2 -3s-2.032 1.085 -2 3c.034 2.048 1.658 2.877 2.5 4c1.5 2 2.5 2.5 3.5 1c.667 -1 1.167 -1.833 1.5 -2.5c1 2.333 2.333 3.5 4 3.5h2.5"
-              />
-              <path
-                d="M20 17v-12c0 -1.121 -.879 -2 -2 -2s-2 .879 -2 2v12l2 2l2 -2z"
-              />
-              <path d="M16 7h4" />
-            </svg>
-            <div class="titulos">
-              <h3>Post</h3>
-            </div>
+        <form class=" p-2 m-2 rounded-3">
+          <div class="form-group mb-2 d-flex">
+            <img src="styles/resources/Sin título-2.png" alt="Kenzo" width="50px" height="50px" class="m-2">
+            <input type="email" class="form-control border-none text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="¿En qué estás pensando?">
           </div>
-          <div class="introduce-texto">
-            <a href="perfil.html">
-            <img
-              src="styles/resources/Sin título-2.png"
-              alt="Foto perfil"
-              title="ir a tu perfil"
-              width="50px"
-              height="50px"
-            />
-            </a>
-            <input
-              class="cuadro-texto"
-              type="text"
-              placeholder="Escribe aquí..."
-            />
-          </div>
-          <div class="iconos-texto">
-            <div class="acciones-publicacion">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-brand-instagram"
-                width="30"
-                height="30"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="#9e9e9e"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <rect x="4" y="4" width="16" height="16" rx="4" />
-                <circle cx="12" cy="12" r="3" />
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-              </svg>
-              <p class="titulos">Photo</p>
+          <!-- BOTONERA PUBLICACIÓN -->
+          <div class="d-flex mb-4 col justify-content-center align-items-center">
+            <div class="col-6">
+              <button type="submit" class="btn p-1 align-items-center border col-6">Submit</button>
             </div>
-            <div class="acciones-publicacion">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-video-minus"
-                width="30"
-                height="30"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="#9e9e9e"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z"
-                />
-                <rect x="3" y="6" width="12" height="12" rx="2" />
-                <line x1="7" y1="12" x2="11" y2="12" />
-              </svg>
-              <p class="titulos">Video</p>
+            <div class="d-flex col-5">
+              <button type="button" class="btn p-1 align-items-center border col-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <rect x="4" y="4" width="16" height="16" rx="4" />
+                  <circle cx="12" cy="12" r="3" />
+                  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+                <p class="m-2"> Photo </p>
+              </button>
+              <button type="button" class="btn p-1 align-items-center border col-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-video" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
+                  <rect x="3" y="6" width="12" height="12" rx="2" />
+                </svg>
+                <p class="m-2"> Video </p>
+              </button>
             </div>
-            <div class="acciones-publicacion">
+            <div class="col container">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="more"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"
@@ -388,57 +251,55 @@
               </svg>
             </div>
           </div>
-        </div>
+        </form>
         <!-- DIV 2.2 -->
-        <div class="contenido-2-1, cuadros">
-          <div class="titulos">
-            <h3>Kenzo Tecler</h3>
-            <div class="publicacion">
-              <img
-                src="styles/resources/Sin título-2.png"
-                alt="Foto perfil"
-                width="50px"
-                height="50px"
-              />
-              <p class="nombre-publicacion">Kenzo ha comentado:</p>
+        <div class="container">
+          <div class="col-md-12 mb-4">
+            <div class="h-100 p-3 bg-light border rounded-3">
+              <h2>Periódico</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, asperiores! Ex in repudiandae unde voluptate corporis repellat facilis eveniet nobis nisi exercitationem impedit, quia perspiciatis ipsam repellendus aliquam, tempore error.</p>
+              <a href="https://www.elcomercio.es/" target="_blank" class="col-4">
+                <button class="btn align-items-center" type="button">Sigue leyendo...</button>
+              </a>
             </div>
-            <div class="texto">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                molestias itaque incidunt laudantium officiis dolorem saepe,
-                mollitia, nulla voluptas non minus deleniti illo adipisci ullam.
-                Perspiciatis sed dolor molestias! Vitae?
-              </p>
+          </div> 
+          <div class="col-md-12">
+            <div class="h-100 p-3 bg-light border rounded-3">
+              <h2 >¡Descubre Gijón!</h2>
+              <img class="img-fluid rounded-2 mb-4" src="styles/resources/Gijon-spain1.jpeg" alt="Foto Gijon">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis illum ullam voluptatem iusto autem nisi quam eveniet error velit, itaque labore sequi aperiam dicta inventore beatae nesciunt nostrum. Laborum, labore. <a href="https://www.gijon.es/es" target="_blank">See more...</a></p>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
 
       <!-- DIV 3 - DERECHA -->
-      <div class="contenido-3">
-        <div class="contenido-1-1, cuadros">
+      <div class="col-3 m-2">
+        <div class="d-block">
           <div class="titulos">
             <h3>Red</h3>
           </div>
-          <div class="contenido-individual">
+          <div class="d-flex align-items-center mb-2">
             <img
-              src="styles/resources/Maria.png"
-              alt="Foto de Maria"
+              src="styles/resources/fotos-personas-grid/gal-gadot.webp"
+              alt="Foto Gal Gadot"
               width="50px"
               height="50px"
+              class="rounded-5"
             />
-            <p class="nombre-categorias">Maria Contenta</p>
+            <p class="nombre-categorias">Gal Gadot</p>
           </div>
-          <div class="contenido-individual">
+          <div class="d-flex align-items-center mb-2">
             <img
-              src="styles/resources/Lucia.png"
+              src="styles/resources/fotos-personas-grid/Frodo_400x400.jpg"
               alt="Foto de Lucia"
               width="50px"
               height="50px"
+              class="rounded-5"
             />
-            <p class="nombre-categorias">Lucia Neutra</p>
+            <p class="nombre-categorias">Frodo Bolsón</p>
           </div>
-          <div class="contenido-individual">
+          <div class="d-flex align-items-center mb-2">
             <img
               src="styles/resources/Pedro.png"
               alt="Foto de Pedro"
@@ -449,6 +310,7 @@
           </div>
         </div>
       </div>
+
     </main>
     <footer>
       <p>Grupo 11 - Información Empleo Ayuda Privacidad Condiciones © 2023 Tecla.</p>
