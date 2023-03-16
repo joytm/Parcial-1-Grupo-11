@@ -15,7 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #79C7C7;
     margin-bottom: 5px;
     margin-top: 30px;
     max-height: 50px;
@@ -34,7 +34,10 @@ html{
 .cotilleo {
     border: none;
     background-color: rgb(239, 239, 239);
+}
 
+input::placeholder {
+    color: black;
 }
 
 .button {
@@ -55,6 +58,8 @@ html{
 .nombre-menu {
     font-size: small;
     margin: 5px 0;
+    color: white;
+    text-decoration: none;
 }
 
 .justificar {
@@ -63,13 +68,17 @@ html{
     margin-right: 15px;
 }
 
+.justificar a {
+    text-decoration: none;
+}
+
 .iconos {
     margin-left: 15px;
 }
  
 .unirseAhora {
     text-decoration: none;
-    color: rgb(11, 101, 194);
+    color: black;
     font-size: 10px;
     font-weight: bold;
 }
@@ -79,7 +88,7 @@ html{
     font-size: 10px;
     border-radius: 25px;
     padding: 10px 10px;
-    color: rgb(11, 101, 194);
+    color: black;
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
@@ -87,8 +96,8 @@ html{
 }
 
 .inicioSesion:hover {
-    color: white;
-    background-color: bisque;
+    color: black;
+    background-color: #efefef;
 }
 /* Estilos Main */
 
@@ -133,13 +142,15 @@ main {
 
 .contenido-2 {
     flex: 50%;
-    margin-right: 5px;
+    
 }
 
 .contenido-2-1 {
     display: flex;
     align-items: center;
 }
+
+.contenido-1-1
 
 .introduce-texto {
     border: 1px solid rgb(172, 172, 172);
@@ -195,4 +206,32 @@ main {
 
 .contenido-3 {
     flex: 25%;
+    margin-left: 5px;
 }
+
+
+#button-bottom {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 0;
+    background-color: #79C7C7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+#button-bottom:hover {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: -1;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(225, 225, 225);
+} 
