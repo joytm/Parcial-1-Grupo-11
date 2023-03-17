@@ -205,3 +205,12 @@ input {
   background-color: #f59fc6;
   border: none;
 }
+
+.footer {
+  position: absolute;
+  align-items: center;
+  width: 1000px;
+  color: rgb(222, 222, 222);
+  display: flex;
+  justify-content: center;
+}
