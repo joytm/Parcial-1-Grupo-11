@@ -213,6 +213,14 @@ a{
     color: black;
 }
 
+.enlace {
+    color: black;
+  }
+  
+  .a:visited {
+    color: black;
+  }
+
 /* Footer + Botones laterales */
 #button-bottom {
     display: inline-block;
