@@ -86,6 +86,14 @@
   border-radius: 10px;
 }
 
+.enlace {
+  color: black;
+}
+
+.a:visited {
+  color: black;
+}
+
 /* Media Queries */
 
 /* De momento está bien hasta 480px */

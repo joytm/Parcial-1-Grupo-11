@@ -11,15 +11,17 @@ html{
 /* HEADER - MENÚ */
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #79C7C7;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    max-height: 50px;
-    padding: 35px;
-    border-radius: 8px;
-    position: sticky;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top: 2px;
+   z-index: 1;
+   background-color: #79C7C7;
+   margin-bottom: 5px;
+   margin-top: 20px;
+   max-height: 50px;
+   padding: 35px;
+   border-radius: 8px;
 }
 
 .buscador {
