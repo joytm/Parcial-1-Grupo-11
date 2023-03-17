@@ -266,6 +266,7 @@ a{
     color: rgb(222, 222, 222);
     display: flex;
     justify-content: center;
+    bottom: 5px;
 }
 
 .academia {
