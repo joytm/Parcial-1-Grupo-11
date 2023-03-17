@@ -1,8 +1,3 @@
-:root{
-    --rosa: #F59FC6;
-    
-}
-
 * {
     box-sizing: border-box;
 }
@@ -13,6 +8,7 @@ html{
     margin: auto;
 }
 
+/* HEADER - MENÚ */
 .header {
     display: flex;
     justify-content: space-between;
@@ -161,6 +157,7 @@ h2 {
     ;
 }
 
+/* CLASES CONTENIDO */
 .main {
     display: flex;
     margin: 100px 0px;
@@ -249,15 +246,7 @@ h2 {
     transform: scale(1.25);
 }
 
-.footer {
-    position: absolute;
-    align-items: center;
-    width: 1000px;
-    color: rgb(222, 222, 222);
-    display: flex;
-    justify-content: center;
-}
-
+/* FOOTER + BOTONES LATERALES */
 .academia {
     position: fixed;
     bottom: 100px;
@@ -270,4 +259,15 @@ h2 {
     background-color: #79C7C7;
     width: 200px;
     border-radius: 10px;
+    padding: 3px;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    color: rgb(222, 222, 222);
+    bottom: 5px;
 }
