@@ -64,11 +64,12 @@
 
 .footer {
   position: absolute;
+  display: flex;
+  justify-content: center;
   align-items: center;
   width: 1000px;
   color: rgb(222, 222, 222);
-  display: flex;
-  justify-content: center;
+  bottom: 5px;
 }
 
 .academia {

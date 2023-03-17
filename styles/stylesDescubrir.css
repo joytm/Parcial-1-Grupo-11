@@ -98,6 +98,7 @@ input::placeholder {
     margin: 0 5px;
 }
 
+/* Foto + ¿Que hay de nuevo? HEADER */
 .inicioSesion:hover {
     color: black;
     background-color: #efefef;
@@ -118,11 +119,11 @@ input::placeholder {
     margin: 10px;
 }
 
-/* Estilos Div 1.1 */
+/* Estilos MAIN */
 
 .titulos {
     color: rgb(172, 172, 172);
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 .text {
@@ -142,7 +143,6 @@ input::placeholder {
 .nombre-categorias {
     margin: 0px 15px;
 }
-
 
 /* Estilos Div 2.1 */
 
@@ -170,16 +170,13 @@ a{
 }
 
 .contenido-2 {
-    flex: 50%;
-    
+    flex: 50%;  
 }
 
 .contenido-2-1 {
     display: flex;
     align-items: center;
 }
-
-.contenido-1-1
 
 .introduce-texto {
     border: 1px solid rgb(172, 172, 172);
@@ -196,11 +193,6 @@ a{
     justify-content: start;
     width: 350px;
     height: 100px;
-}
-
-::placeholder {
-    color: rgb(11, 101, 194);
-    opacity: 50%;
 }
 
 .iconos-texto {
@@ -221,18 +213,7 @@ a{
     color: black;
 }
 
-.texto p::first-letter{
-    font-size: x-large;
-}
-
-/* Estilos Div 3.1 */ 
-
-.contenido-3 {
-    flex: 25%;
-    margin-left: 5px;
-}
-
-
+/* Footer + Botones laterales */
 #button-bottom {
     display: inline-block;
     position: fixed;
@@ -259,16 +240,6 @@ a{
     background-color: rgb(225, 225, 225);
 } 
 
-.footer {
-    position: absolute;
-    align-items: center;
-    width: 1000px;
-    color: rgb(222, 222, 222);
-    display: flex;
-    justify-content: center;
-    bottom: 5px;
-}
-
 .academia {
     position: fixed;
     bottom: 100px;
@@ -281,4 +252,15 @@ a{
     background-color: #79C7C7;
     width: 200px;
     border-radius: 10px;
+    padding: 3px;
 }
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    color: rgb(222, 222, 222);
+    padding-bottom: 5px;
+  }
