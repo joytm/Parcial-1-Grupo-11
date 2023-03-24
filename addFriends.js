@@ -11,3 +11,5 @@ function addFriends() {
 
   friends.sort();
 }
+
+addFriends();
